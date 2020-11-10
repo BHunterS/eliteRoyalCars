@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EliteRoyalCars</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="css/comment.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.min.css">
+</head>
+<body>
+
+	@@include('header.html')
+	<main class="wrapper">
+		<section class="main-screen _anim-items">
+			<div class="main-screen__inner">
+				<div class="main-screen__info _anim-items">
+					<div class="main-screen__subtitle _anim-items">
+						<span class="orange">Elite Royal Cars</span>  — мы лидируем и нас выбирают
+					</div>
+					<div class="main-screen__title">
+						Арендуйте автомобиль с водителем и комфортно прокатитесь вместе с компанией <span class="orange">Elite Royal Cars</span>
+					</div>
+					<div class="main-screen__btn" id="slide-to-form">
+						<a href="#">Сделать заказ</a>
+					</div>
+				</div>
+				<div class="main-screen__img _anim-items">
+					<img src="img/header-img.jpg" alt="">
+				</div>
+				<div class="main-screen__car _anim-items">
+					<img src="img/car.png" alt="">
+				</div>
+			</div>
+			<div class="slide _anim-items">
+				<a class="slide-link" href="#" id="slide-down"></a>
+				<div class="slide-text">Смотреть далее</div>
+			</div>
+		</section>
+		<section class="problem">
+			<div class="problem__inner">
+				<div class="block-title">
+					<div class="title">
+						Почему мы?
+					</div>
+					<div class="subtitle">
+						Трансфер с <span class="orange">Elite Royal Cars</span>  —  решение всех проблем
+					</div>
+				</div>
+				<div class="problem__content ibg">
+					<img src="img/problem-img.jpg">
+					<div class="container">
+						<div class="problem__items">
+							<div class="problem__item _anim-items">
+								<div class="problem__number">
+									1.
+								</div>
+								<div class="problem__text">
+									В нашем автопарке только новые автомобили представительского класса.
+								</div>
+							</div>
+							<div class="problem__item _anim-items">
+								<div class="problem__number">
+									2.
+								</div>
+								<div class="problem__text">
+									Опытный водитель с табличкой встретит в аэропорту и поможет с багажом.
+								</div>
+							</div>
+							<div class="problem__item _anim-items">
+								<div class="problem__number">
+									3.
+								</div>
+								<div class="problem__text">
+									В салоне авто всегда есть WI-FI, питьевая вода и влажные салфетки.
+								</div>
+							</div>
+							<div class="problem__item _anim-items">
+								<div class="problem__number">
+									4.
+								</div>
+								<div class="problem__text">
+									Все автомобили чёрного цвета без дополнительных логотипов.
+								</div>
+							</div>
+							<div class="problem__item _anim-items">
+								<div class="problem__number">
+									5.
+								</div>
+								<div class="problem__text">
+									Водители свободно разговаривают на русском и английском языках.
+								</div>
+							</div>
+							<div class="problem__item _anim-items">
+								<div class="problem__number">
+									6.
+								</div>
+								<div class="problem__text">
+									Мы оказываем VIP-сервис в идеальном соотношении цена/качество..
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		@@include('comment.html')
+		<section class="form">
+			<div class="form__inner">
+				<div class="block-title">
+					<div class="title">
+						Форма заказа
+					</div>
+					<div class="subtitle">
+						Трансфер c <span class="orange">Elite Royal Cars</span> — стандарты европейского уровня
+					</div>
+				</div>
+				<div class="form__content ibg">
+					<img src="img/form-bg.jpg" alt="">
+					<form class="form-all" action="">
+						<input class="form-all__item _anim-items" type="text" name="" placeholder="Имя и фамилии">
+						<input class="form-all__item _anim-items" type="tel" name=""
+						placeholder="Контактный телефон">
+						<div class="form__items _anim-items">
+							<input class="form__item" type="text" name="" placeholder="Откуда">
+							<input class="form__item" type="text" name="" placeholder="Куда">
+						</div>
+						<div class="form__items _anim-items">
+							<input class="form__item" type="text" name="" placeholder="Дата">
+							<input class="form__item" type="text" name="" placeholder="Кол-во пассажиров">
+						</div>
+						<button class="form__btn" type="submit">Сделать заказ</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		@@include('partners.html')
+	</main>
+	@@include('footer.html')
+
+	<script src="js/main.js" type="text/javascript"></script>
+	<script src="js/index.min.js" type="text/javascript"></script>
+	<script src="js/comment.min.js" type="text/javascript"></script>
+</body>
+</html>
