@@ -1,0 +1,65 @@
+/* Default ===========
+====================================*/
+
+.default{
+	margin-bottom: 10rem;
+}
+
+.default__inner {
+	padding-top: 10rem;
+}
+
+.default__content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5rem;
+}
+
+.default__info {
+	width: 50%;
+	margin-right: 9rem;
+}
+
+.default__pictures {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
+.default__imgs {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+	.default__content{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.default__pictures{
+		order: 3;
+		width: 100%;
+	}
+
+	.default__info{
+		order: 1;
+		width: 100%;
+		margin: 0;
+	}
+
+	.default__imgs{
+		flex-direction: column;
+
+		mr{
+			margin: 0;
+		}
+
+		.block-img{
+			width: 100%;
+		}
+	}
+}
